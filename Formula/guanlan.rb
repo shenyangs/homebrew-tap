@@ -8,6 +8,8 @@ class Guanlan < Formula
   sha256 "299c29e89ce1f7ac35721837ca0544e5b439cb18d802c4ad75b6258916740544"
   license "MIT"
 
+  depends_on "python@3.12"
+
   resource "certifi" do
     url "https://files.pythonhosted.org/packages/25/ee/6caf7a40c36a1220410afe15a1cc64993a1f864871f698c0f93acb72842a/certifi-2026.4.22.tar.gz"
     sha256 "8d455352a37b71bf76a79caa83a3d6c25afee4a385d632127b6afb3963f1c580"
@@ -82,8 +84,6 @@ class Guanlan < Formula
     url "https://files.pythonhosted.org/packages/8b/34/7c6b4e3f89cb6416d2cd7ab6dab141a1df97ab0fb22d15816db2c92148c9/yt_dlp-2026.3.17.tar.gz"
     sha256 "ba7aa31d533f1ffccfe70e421596d7ca8ff0bf1398dc6bb658b7d9dec057d2c9"
   end
-
-  depends_on "python@3.12"
 
   def install
     virtualenv_install_with_resources
