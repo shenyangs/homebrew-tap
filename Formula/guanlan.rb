@@ -3,8 +3,8 @@ class Guanlan < Formula
 
   desc "China-aware source and platform router for AI agents"
   homepage "https://github.com/shenyangs/Guanlan"
-  url "https://files.pythonhosted.org/packages/97/a9/f652495bf698b90fb417a295b87cb096006abcc984bd95c9f77a5b63bb32/guanlan-0.5.20.tar.gz"
-  sha256 "2fd7699d450f4a2bf49d8b9a03dc84b200eda1f941d0a384739bdf1009032c0a"
+  url "https://files.pythonhosted.org/packages/e8/77/e5bec9077ca3dedb421af49d66c7fa9889f41cd7c8d1a51b14b6a58e7a4c/guanlan-0.5.21.tar.gz"
+  sha256 "46f9afa17300b5693b45a7e30faa95f87eba16d697332020888d106c719531e0"
   license "MIT"
 
   depends_on "python@3.12"
@@ -35,8 +35,8 @@ class Guanlan < Formula
   end
 
   resource "markdown-it-py" do
-    url "https://files.pythonhosted.org/packages/5b/f5/4ec618ed16cc4f8fb3b701563655a69816155e79e24a17b651541804721d/markdown_it_py-4.0.0.tar.gz"
-    sha256 "cb0a2b4aa34f932c007117b194e945bd74e0ec24133ceb5bac59009cda1cb9f3"
+    url "https://files.pythonhosted.org/packages/5c/5c/f3aedc83549aae71cd52b9e9687fe896e3dc6e966ba20eba04718605d198/markdown_it_py-4.1.0.tar.gz"
+    sha256 "760e3f87b2787c044c5138a5ba107b7c2be26c03b13cc7f8fe42756b65b1df6c"
   end
 
   resource "mdurl" do
