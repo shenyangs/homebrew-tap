@@ -3,8 +3,8 @@ class Guanlan < Formula
 
   desc "China-aware source and platform router for AI agents"
   homepage "https://github.com/shenyangs/Guanlan"
-  url "https://files.pythonhosted.org/packages/02/b8/a0c80b4b13121208b80c2543eaa68fed091c750da7fb39e65c908ea85d29/guanlan-0.5.37.tar.gz"
-  sha256 "acdce1fda6c8add8c0000b09e58ce23e400afb4d819009f341bfc635d8aa8903"
+  url "https://files.pythonhosted.org/packages/03/b8/6d22cedd057bf18dbbca3173d331b92ae5cd43b9d800180ad7379618ea5c/guanlan-0.5.38.tar.gz"
+  sha256 "926c48154f19866844c8d4a51bc56b489330fc290239b4d99362dbe9100d289d"
   license "MIT"
 
   depends_on "python@3.12"
@@ -60,8 +60,8 @@ class Guanlan < Formula
   end
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/24/36/7180e7f077c38108945dbbdf60fe04db681c3feb6e96419f8c6dc8723741/requests-2.34.1.tar.gz"
-    sha256 "0fc5669f2b69704449fe1552360bd2a73a54512dfd03e65529157f1513322beb"
+    url "https://files.pythonhosted.org/packages/ac/c3/e2a2b89f2d3e2179abd6d00ebd70bff6273f37fb3e0cc209f48b39d00cbf/requests-2.34.2.tar.gz"
+    sha256 "f288924cae4e29463698d6d60bc6a4da69c89185ad1e0bcc4104f584e960b9ed"
   end
 
   resource "rich" do
