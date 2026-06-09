@@ -3,8 +3,8 @@ class Guanlan < Formula
 
   desc "China-aware source and platform router for AI agents"
   homepage "https://github.com/shenyangs/Guanlan"
-  url "https://files.pythonhosted.org/packages/f4/ef/b9a244524ebc18cbda293881a5ed83e01727ba663f6e135bc5a90654e251/guanlan-0.6.16.tar.gz"
-  sha256 "7ecc4e3284632030ba4ecd9c86f653dfaf3841f52a54b74e963b53a2621c38f1"
+  url "https://files.pythonhosted.org/packages/07/b5/0c30d3e5e6f564490424109c146096a49097e69411259f57b851d761b809/guanlan-0.6.17.tar.gz"
+  sha256 "5bf31af489243fa83b3e5d02c9ab69480a30c256d7812c1516e987ecbe21908b"
   license "MIT"
 
   depends_on "python@3.12"
@@ -25,8 +25,8 @@ class Guanlan < Formula
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/b9/28/99c51f664567218d824af024c0251650fb27e4ca066df188dab0769c5b91/idna-3.17.tar.gz"
-    sha256 "5eb0cb53bc467c12eadcf6de83163ad8527cec9416f44b9b61b19caedad2b87f"
+    url "https://files.pythonhosted.org/packages/cd/63/9496c57188a2ee585e0f1db071d75089a11e98aa86eb99d9d7618fc1edce/idna-3.18.tar.gz"
+    sha256 "ffb385a7e039654cef1ab9ef32c6fafe283c0c0467bba1d9029738ce4a14a848"
   end
 
   resource "loguru" do
