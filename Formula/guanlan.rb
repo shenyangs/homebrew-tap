@@ -3,8 +3,8 @@ class Guanlan < Formula
 
   desc "China-aware source and platform router for AI agents"
   homepage "https://github.com/shenyangs/Guanlan"
-  url "https://files.pythonhosted.org/packages/07/b5/0c30d3e5e6f564490424109c146096a49097e69411259f57b851d761b809/guanlan-0.6.17.tar.gz"
-  sha256 "5bf31af489243fa83b3e5d02c9ab69480a30c256d7812c1516e987ecbe21908b"
+  url "https://files.pythonhosted.org/packages/dd/1a/da6ac4c54a327cc3bee98eb381f6862069a34c339a4f8383f6e9f429c17e/guanlan-0.6.18.tar.gz"
+  sha256 "b9380997be929dffeacbaf25af6633714578ba096d79376ab3e5a539db8afa58"
   license "MIT"
 
   depends_on "python@3.12"
@@ -80,8 +80,8 @@ class Guanlan < Formula
   end
 
   resource "yt-dlp" do
-    url "https://files.pythonhosted.org/packages/8b/34/7c6b4e3f89cb6416d2cd7ab6dab141a1df97ab0fb22d15816db2c92148c9/yt_dlp-2026.3.17.tar.gz"
-    sha256 "ba7aa31d533f1ffccfe70e421596d7ca8ff0bf1398dc6bb658b7d9dec057d2c9"
+    url "https://files.pythonhosted.org/packages/88/a4/1b0979d28f87774bb67fbbc66bce44f9dd1aa0e547a99e22985fac945c33/yt_dlp-2026.6.9.tar.gz"
+    sha256 "d50fcb95f48d61bedde33e408c1881d4c279e51c31354a599ce09e96ba0f4b86"
   end
 
   def install
