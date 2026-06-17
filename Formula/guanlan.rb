@@ -3,8 +3,8 @@ class Guanlan < Formula
 
   desc "China-aware source and platform router for AI agents"
   homepage "https://github.com/shenyangs/Guanlan"
-  url "https://files.pythonhosted.org/packages/dd/1a/da6ac4c54a327cc3bee98eb381f6862069a34c339a4f8383f6e9f429c17e/guanlan-0.6.18.tar.gz"
-  sha256 "b9380997be929dffeacbaf25af6633714578ba096d79376ab3e5a539db8afa58"
+  url "https://files.pythonhosted.org/packages/0f/a7/2811dc6d621cdd029ef35406857534dfbe9ebbfd72451c1b7865a2d64b52/guanlan-0.6.19.tar.gz"
+  sha256 "1aff19d46b4f3a5e2ffd7ec283157afce12f4622380b39f6a5773047dff35da8"
   license "MIT"
 
   depends_on "python@3.12"
