@@ -3,15 +3,15 @@ class Guanlan < Formula
 
   desc "China-aware source and platform router for AI agents"
   homepage "https://github.com/shenyangs/Guanlan"
-  url "https://files.pythonhosted.org/packages/f5/18/364bb1adf380ecd4643fdded0df82616a0f33039d3672a30622eb7180cb2/guanlan-0.7.1.tar.gz"
-  sha256 "5dac67df44a13bf187228d47ce864897b5008ef386019677a09abb78d99bd8dc"
+  url "https://files.pythonhosted.org/packages/f6/2e/46ecdccd7072f33593c0517bfa71b940d6b57d20ef28cc6abc178ce6b06f/guanlan-0.7.2.tar.gz"
+  sha256 "0193a9577fa0f8fe17a0ac140afebb8ab5b92b64922e35f642abe0fd69ed89d6"
   license "MIT"
 
   depends_on "python@3.12"
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/f3/ce/ee2ecad540810a79593028e88299baeae54d346cc7a0d94b6199988b89b1/certifi-2026.5.20.tar.gz"
-    sha256 "69dea482ab64caa7b9f6aba1c6bf48bb6a5448d1c0f1b17ab42ad8c763a5344d"
+    url "https://files.pythonhosted.org/packages/c9/c7/424b75da314c1045981bd9777432fad05a9e0c69daa4ed7e308bbaffe405/certifi-2026.6.17.tar.gz"
+    sha256 "024c88eeec92ca068db80f02b8b07c9cef7b9fe261d1d535abfd5abd6f6af432"
   end
 
   resource "charset-normalizer" do
