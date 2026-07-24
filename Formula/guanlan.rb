@@ -3,8 +3,8 @@ class Guanlan < Formula
 
   desc "China-aware source and platform router for AI agents"
   homepage "https://github.com/shenyangs/Guanlan"
-  url "https://files.pythonhosted.org/packages/b1/97/1a353bf510006bfea4cf17220ba34856ef0cdf64f85a4823ae0738ef7cb5/guanlan-0.7.9.tar.gz"
-  sha256 "5573093ee9be12639951ba438ed6f8774e874527afaa1d3ea2a9a1c34860857a"
+  url "https://files.pythonhosted.org/packages/0a/ae/fca01232eae5f50c0d61f47981c2721bb99b2efe0a4c02be761d35c5e4d6/guanlan-0.8.0.tar.gz"
+  sha256 "e7505ce0ea31072a308eb49692ec7500ee5f6da22a7ba180d27ccd80fe30d1ac"
   license "MIT"
 
   depends_on "python@3.12"
@@ -15,8 +15,8 @@ class Guanlan < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/e7/a1/67fe25fac3c7642725500a3f6cfe5821ad557c3abb11c9d20d12c7008d3e/charset_normalizer-3.4.7.tar.gz"
-    sha256 "ae89db9e5f98a11a4bf50407d4363e7b09b31e55bc117b4f7d80aab97ba009e5"
+    url "https://files.pythonhosted.org/packages/bd/2a/23f34ec9d04624958e137efdc394888716353190e75f25dd22c7a2c7a8aa/charset_normalizer-3.4.9.tar.gz"
+    sha256 "673611bbd43f0810bec0b0f028ddeaaa501190339cac411f347ac76917c3ae7b"
   end
 
   resource "feedparser" do
@@ -80,8 +80,8 @@ class Guanlan < Formula
   end
 
   resource "yt-dlp" do
-    url "https://files.pythonhosted.org/packages/88/a4/1b0979d28f87774bb67fbbc66bce44f9dd1aa0e547a99e22985fac945c33/yt_dlp-2026.6.9.tar.gz"
-    sha256 "d50fcb95f48d61bedde33e408c1881d4c279e51c31354a599ce09e96ba0f4b86"
+    url "https://files.pythonhosted.org/packages/47/c5/9972af4b472b0d55badf841ebafd2f98944cb0ae0f46e11d01f363ea5b91/yt_dlp-2026.7.4.tar.gz"
+    sha256 "b094813404f87a9dd2186f00815231df32e5fd8a5403be0f807b3bb2d21a4432"
   end
 
   def install
